@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your link"
+        android:textSize="15sp"
+        android:textColor="@color/blue" />
+
+    <EditText
+        android:id="@+id/edittext_enter_url"
+        android:layout_width="wrap_content"
+        android:ems="25"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="@string/hint_url"
+        android:singleLine="true">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textview_error_url"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/error_invalid_url"
+        android:textColor="@color/red" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_cast"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_button"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            style="@style/CustomButtonText"
+            android:text="Cast URL" />
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_button"
+            android:layout_height="wrap_content"
+            style="@style/CustomButtonText"
+            android:padding="10dp"
+            android:text="Cancel" />
+    </LinearLayout>
+
+</LinearLayout>

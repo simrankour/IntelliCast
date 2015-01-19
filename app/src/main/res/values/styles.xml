@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@android:color/holo_blue_dark</item>
+    </style>
+
+    <style name="CustomTextView" parent="Base.TextAppearance.AppCompat.Title">
+        <item name="android:textColor">#FFFF</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <style name="CustomButtonText" parent="Base.TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style name="popup_theme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

@@ -1,0 +1,41 @@
+<!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="ig.intellicastsender.GalleryActivity">
+
+    <Button
+        android:id="@+id/button_cast"
+        android:background="@drawable/rounded_button"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Cast your link"
+        android:padding="10dp"
+        style="@style/CustomButtonText"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content" />
+
+
+    <GridView
+        android:layout_below="@+id/button_cast"
+        android:id="@+id/custom_list"
+        android:numColumns="2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
+-->
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</android.support.v4.view.ViewPager>

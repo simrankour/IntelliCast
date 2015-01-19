@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IntelliCast</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="hint_url">http://davy.preuveneers.be/phoneme/public/icon/android.png</string>
+    <string name="message_empty">Searching for media routes...</string>
+    <string name="action_about_us">About Us</string>
+    <string name="error_invalid_url">** Invalid URL **</string>
+
+    <string name="upload_button">Upload Button</string>
+    <string name="camera_button">Camera Button</string>
+    <string name="gallery_button">Gallery Button</string>
+    <string name="title_dialog_upload">Choose Upload Source</string>
+    <string name="playstore_present">Check if playstore present</string>
+    <string name="title_activity_bucket_create">Bucket_Create</string>
+    <string name="title_activity_get_channel_details_task">GetChannelDetailsTask</string>
+    <string name="title_activity_sample_image">SampleImageActivity</string>
+
+</resources>

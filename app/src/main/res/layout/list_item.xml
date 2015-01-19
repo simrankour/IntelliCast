@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_margin="5dp"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/icon"
+        android:padding="5dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:textSize="20sp"
+            android:id="@+id/listview_textItem" />
+
+        <TextView
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click here to cast"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <!-- <Button
+         android:background="@drawable/rounded_button"
+         android:padding="5dp"
+         android:textColor="@color/white"
+         android:text="Cast"
+         android:layout_width="50dp"
+         android:layout_height="50dp" />-->
+</LinearLayout>
